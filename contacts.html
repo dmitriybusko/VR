@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <img src="images/new_sense.png" alt="new_sense" title="Интернет-магазин New Sense" width="300">
+                </div>
+                <div class="menu">
+                    <div><a href="index.html">Главная</a></div>
+                    <div><a href="catalog.html">Каталог</a></div>
+                    <div><a href="contacts.html">Контакты</a></div>
+                </div>
+            </div>
+            <div class="middle">
+                <hr>
+                <form action="mailto:virtreal@gmail.com" enctype="text/plain">
+                    <fieldset>
+                        <legend>Напишите нам</legend>
+                        <label for="name">ФИО</label>
+                        <input id="name" type="text" size="30" placeholder="Введите ФИО" name="name">
+                        <br>
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" size="30" placeholder="Введите эл. почту" name="email">
+                        <br>
+                        <label for="theme">Тема письма</label>
+                        <input id="theme" type="text" size="30" placeholder="Введите тему письма" name="theme">
+                        <br>
+                        <label for="letter" >Содержание письма</label>
+                        <textarea id="letter" placeholder="Изложите ваши мысли" name="letter" ></textarea>
+                        <br>
+                        <input id="submit" type="submit" value="Отправить">
+                    </fieldset>
+                </form>
+                <h3 id="map">Наш магазин можно найти здесь:</h3>
+                <script  type="text/javascript" charset="utf-8" async
+                         src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=tYGTyNjaXLPmXtJoRTt1qgGVEg0U1Z7R&amp;
+                    width=100%25&amp;height=374&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+            </div>
+            <div class="footer">
+                <hr>
+                <div>
+                    <span>Республика Беларусь г. Минск ул. Советская 70 д.30 офис 304</span>
+                    <br>
+                    <span>тел: +375 (33) 555-49-00</span>
+                    <br>
+                    <span>e-mail: <a href="mailto:virtreal@gmail.com">virtreal@gmail.com</a></span>
+                    <br>
+                    <span>2017 &copy; Все права защищены</span>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

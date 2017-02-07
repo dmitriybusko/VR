@@ -1,0 +1,266 @@
+
+@font-face {
+    font-family: "FreeSet";
+    src: url("fonts/freeset.ttf");
+}
+
+@font-face {
+    font-family: "Proxima Nova Lt";
+    src: url("fonts/ProximaNova-Semibold.ttf");
+}
+body{
+    background-color: #fcfae1;
+    font-family: FreeSet, sans-serif;
+    margin: 0;
+}
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+.header {
+    height: 150px;
+}
+.logo{
+    float:left;
+}
+.header .logo img{
+    width: 300px;
+}
+.menu{
+    float: right;
+    display: flex;
+    margin-top: 55px;
+}
+
+.middle{
+    clear:both;
+}
+.middle img[alt="virtual"]{
+    width: 600px;
+}
+.half_middle{
+    margin: 0px;
+    float: left;
+    width: 50%;
+    background-color: #fcfae1;
+}
+.half_middle .image img{
+    width: 100%;
+}
+.middle .title:nth-of-type(2) {
+    clear: both;
+}
+h1, h2, h3, h5{
+    font-family: "Proxima Nova Lt", sans-serif;
+    text-align: center;
+    margin-left: 10px;
+}
+p, b{
+    margin-left: 10px;
+}
+.image img{
+    border: 1px solid #b9121b;
+    float: left;
+    position: relative;
+}
+.image img:hover{
+    border: 1px solid transparent;
+}
+.title{
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 0;
+    background-color: #edebd2;
+}
+.half_middle .title{
+    margin-top: 0px;
+}
+.title:nth-of-type(1){
+    clear: both;
+}
+.menu  div a{
+    float: left;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    border-left: 1px solid #bd8b46;
+}
+.menu div:last-child a{
+    border-right: 1px solid #bd8b46;
+}
+.menu div a:hover{
+    background-color: #f6e497;
+}
+.footer{
+    background-color: #bd8b46;
+    height: 100px;
+    clear: both;
+}
+.footer div{
+    text-align: right;
+    float:right;
+}
+.footer span{
+    margin: 5px 5px 0 0;
+}
+
+.advantage{
+    color:#707070;
+    font-size: 18px;
+    line-height: 18px;
+}
+.description{
+    list-style-position: inside;
+    list-style-image: url("images/check.svg");
+    font-size: 16px;
+    overflow: hidden;
+}
+.check{
+    list-style-image: url("images/check.svg");
+}
+.check li{
+    padding-bottom: 1%;
+}
+
+#name, #email, #theme, #letter{
+    height: 20px;
+    width: 200px;
+    background-color: #f1f0ec;
+}
+#name:focus,
+#email:focus,
+#theme:focus,
+#letter:focus{
+    color: #4c181b;
+    background-color: #fcfae1;
+    text-transform: capitalize;
+}
+#name{
+    margin: 0 0 0 120px;
+}
+#email{
+    margin: 0 0 0 113px;
+}
+#theme{
+    margin: 0 0 0 62px;
+}
+#letter{
+    height: 80px;
+    width: 361px;
+}
+#submit{
+    margin: 0 0 0 143px;
+}
+legend{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #fcfae1;
+}
+fieldset{
+    background-color: #f6e497;
+    width: 380px;
+    margin: 0 auto;
+    border-color: #b9121b;
+}
+.item{
+    width: 30%;
+    height: 400px;
+    float: left;
+    margin: 0 5% 5% 0;
+    border: 1px solid #bd8b46;
+    position: relative;
+    box-sizing: border-box;
+}
+.item:nth-of-type(3n){
+    margin: 0 0 5% 0;
+}
+.link a{
+    position: absolute;
+    top: 347px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    border-top: 1px solid #bd8b46;
+}
+.link a:hover{
+    background-color: #f0dc92;
+}
+.item .name{
+    text-align: center;
+    width: 100%;
+    line-height: 50px;
+    border-bottom: 1px solid #bd8b46;
+}
+.item .picture img{
+    display: table-cell;
+    width: 100%;
+}
+
+.htc, .rift{
+    margin-left: 10px;
+    height: 230px;
+    background-color: #fcf5e1;
+}
+.fove{
+    margin-left: 10px;
+    height: 230px;
+    background-color: #F5F3DA;
+}
+.htc p:first-letter,
+.rift p:first-letter,
+.fove p:first-letter{
+    color: #b9121b;
+    font-weight: bold;
+}
+hr{
+    border-color: #b9121b;
+    margin-bottom: 20px;
+}
+a {
+    color: black;
+}
+.d_td table{
+    border-collapse: collapse;
+    width: 900px;
+    margin: 0 auto;
+}
+.d_td tr{
+    border-top: 1px solid #bd8b46;
+    border-bottom: 1px solid #bd8b46;
+}
+.d_td td:first-child{
+    width:450px;
+}
+.d_td tr:hover{
+    background-color: #f6e497;
+}
+.d_td tr:hover td:first-child{
+    background-color: #f5d196;
+}
+
+.buy a{
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #bd8b46;
+    margin: 0 0 20px 40px;
+}
+.buy a:hover{
+    background-color: #f6e497;
+}
+.buy a:active{
+    border: 1px solid #f6e497;
+    background-color: #bd8b46;
+}
